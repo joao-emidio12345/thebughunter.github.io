@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Roboto;
+    src: url(//fonts.googleapis.com/css?family=Droid+Serif:regular,italic,700,700italic|Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic|Heebo:300,regular,500,700);
+}
+
+@font-face {
+    font-family: Droid;
+    src: url(https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto);
+}
+
+body{
+    background-color: #1f1d2b;
+}
+
+div#content-logo-principal{
+    width: 700px;
+    height: 85.91px;
+    display:block;
+    padding: 19px;;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#logo-principal{
+    width: 112px;
+    height: 46px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+}
+
+div#corpo{
+    width: 634px;
+    height: 738px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+
+section#boas-vindas{
+    position: relative;
+    display: flex;
+    width: 674px;
+    height: 690px;
+    float: left;
+    padding-left: 100px;
+    font-family: Droid, serif;
+    font-size: 20px;
+    left: 70px;
+    right: -70px;
+}
+
+section#boas-vindas h1{
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    color: #EF1A67;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+section#boas-vindas h2{
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+section#boas-vindas div#espaco{
+    width: 654px;
+    height: 35px; 
+    margin-bottom: 20px;
+}
+
+section#boas-vindas div#texto-paragrafo{
+    width: 654px;
+    height: 68px;
+    margin-bottom: 20px;
+    font-family: "Droid Serif", serif;
+    font-size: 18px;
+}
+
+section#boas-vindas p{
+    width: 573px;
+    height: 68px;
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+}
+
+div#call-to-action-top{
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+}
+
+div#call-to-action-top a{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #EF1A67;
+    box-shadow: 0px 0px 40px -16px #EF1A67;
+    padding: 18px 30px 18px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+div#call-to-action-top span{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+div#content-imagem-boas-vindas{
+    width: 634px;
+    height: 738px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    display: block;
+    float: right;
+}
+
+div#content-imagem-boas-vindas img{
+    width: 608px;
+    height: 688px;
+}
+
+section#first{
+    width: 700px;
+    top: 700px;
+    margin: -60px auto 25px auto;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+section#first p{
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+section#second{
+    width: 1250px;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.center{
+    width: 379px;
+    height: 93px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+section#second img#canal-tech{
+    width: 251px;
+    height: 67px;
+}
+
+section#second img#forbes{
+    width: 197px;
+    height: 73px;
+}
+
+section#second img#exame{
+    width: 205px;
+    height: 34px;
+}
+
+section#third{
+    width: 1250px;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#third h2{
+    font-family: Roboto, sans-serif;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+
+section#third a{
+    font-family: Roboto, sans-serif;
+    font-size: 38px;
+    color: #EF1A67;
+}
+
+div.normal{
+    margin: 46px 0px 13px 0px;
+    padding: 0px 200px 0px 200px;
+}
+
+div.imagem-esquerda{
+    width: 478px;
+    height: 498px;
+    padding: 10px;
+    left: 120px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+img#imagem-padrao{
+    width: 478px;
+    height: 498px;
+    margin: -39px 0px 0px 0px;
+}
+
+div.texto-direita{
+    width: 570px;
+    height: 479px;
+    padding: 10px;
+    top: 20px;
+    right: 30px;
+    position: relative;
+    display: block;
+    float: right;
+}
+
+img.emoji{
+    width: 17px;
+    height: 17px;
+    margin-left: 1.19px;
+    margin-right: 1.19px;
+}
+
+h2.numero{
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    color: #EF1A67;
+    margin: 0px 0px 20px 0px
+}
+
+h2.subtitle{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0px 0px 20px 0px
+}
+
+p.p-padrao{
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    color: #B4B4B4;
+    margin: 0px 0px 25.5px 0px
+}
+
+section#fourth{
+    height: 479px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.imagem-direita{
+    width: 455px;
+    height: 474px;
+    padding: 0% 0% 0% 010%;
+    margin: 0px 80px 0px 0px;
+    position: relative;
+    display: block;
+    float: right;
+}
+
+div.texto-esquerda{
+    width: 570px;
+    height: 479px;
+    padding: 10px;
+    left: 120px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+section#fifth{
+    height: 479px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#sixth{
+    height: 479px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#seventh{
+    height: 479px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.imagem-esquerda-diff{
+    width: 478px;
+    height: 487px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    float:left;
+    right: 479px;
+}
+
+div.texto-direita-diff{
+    width: 570px;
+    height: 479px;
+    padding: 10px;
+    top: 20px;
+    right: 30px;
+    position: relative;
+    display: block;
+    float: right;
+    top: -480px;
+    bottom: 450px;
+}
+div.imagem-direita-diff{
+    width: 455px;
+    height: 474px;
+    position: relative;
+    display: block;
+    float: right;
+    left: 480px;
+}
+
+div.texto-esquerda-diff{
+    width: 570px;
+    height: 479px;
+    padding: 10px;
+    left: 120px;
+    position: relative;
+    display: block;
+    float: left;
+    bottom: 450px;
+}
+
+section.divisoria{
+    width: 1250px;
+    height: 165px;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.divisoria img{
+    width: 1250px;
+    height: 165px;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
